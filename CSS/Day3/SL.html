@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sri Lanka Flag</title>
+  <style>
+    body {
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .flag {
+      width: 480px;
+      height: 240px;
+      background: yellow; /* Outer border */
+      display: flex;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .left-stripes {
+      width: 80px;
+      display: flex;
+      flex-direction: column;
+    }
+    .green {
+      flex: 1;
+      background: green;
+    }
+    .orange {
+      flex: 1;
+      background: orange;
+    }
+    .maroon {
+      flex: 1;
+      margin-left: 10px;
+      background: maroon;
+      position: relative;
+    }
+    /* Placeholder for lion */
+    .lion {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 60px;
+      color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="flag">
+    <div class="left-stripes">
+      <div class="green"></div>
+      <div class="orange"></div>
+    </div>
+    <div class="maroon">
+      <div class="lion">🦁</div> <!-- Using emoji as placeholder -->
+    </div>
+  </div>
+</body>
+</html>

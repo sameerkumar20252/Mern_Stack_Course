@@ -1,0 +1,22 @@
+#main{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(209, 44, 44);
+    position: relative;
+}
+#main2{
+    height: 96px;
+    width: 300px;
+    background-color: rgb(25, 25, 110);
+    top: 52px;
+    position: absolute;
+}
+#circle{
+   height: 76px;
+   width: 76px;
+   background-color: white;
+   border-radius: 50%;
+   position: absolute;
+   top: 10px;
+   left: 112px;
+}
