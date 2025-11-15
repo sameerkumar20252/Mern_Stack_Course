@@ -97,7 +97,7 @@
 
 // const arr = [10,40,31,71,5,11];
 
-// arr.sort((a,b)=> a-b);  //ascending order
+// arr.sort((a,b) => a-b);  //ascending order
 // console.log(arr);
 
 // 40,10
